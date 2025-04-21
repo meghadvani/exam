@@ -1,0 +1,54 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: medium;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url("https://wallpaperaccess.com/full/3949087.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.user-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.user-form input {
+  padding: 8px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.user-form button {
+  padding: 8px 15px;
+  background-color: darkgoldenrod;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+  padding: 10px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+
+.user-table img {
+  border-radius: 50%;
+}
